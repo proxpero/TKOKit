@@ -7,11 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52920F351EF1E4C100B9F87C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52920F331EF1E4C100B9F87C /* Info.plist */; };
-		52920F361EF1E4C100B9F87C /* TKOKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 52920F341EF1E4C100B9F87C /* TKOKit.h */; };
+		523F31081EF1EB0F00EDA269 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F31071EF1EB0F00EDA269 /* UIView+Extensions.swift */; };
+		523F31091EF1EB0F00EDA269 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F31071EF1EB0F00EDA269 /* UIView+Extensions.swift */; };
+		523F310C1EF1EB7800EDA269 /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F310B1EF1EB7800EDA269 /* UIButton+Extensions.swift */; };
+		523F310D1EF1EB7800EDA269 /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F310B1EF1EB7800EDA269 /* UIButton+Extensions.swift */; };
+		523F310F1EF1EB8A00EDA269 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F310E1EF1EB8A00EDA269 /* UIImage+Extensions.swift */; };
+		523F31101EF1EB8A00EDA269 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F310E1EF1EB8A00EDA269 /* UIImage+Extensions.swift */; };
+		523F31121EF1ECE700EDA269 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F31111EF1ECE700EDA269 /* UIColor+Extensions.swift */; };
+		523F31131EF1ECE700EDA269 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F31111EF1ECE700EDA269 /* UIColor+Extensions.swift */; };
+		523F31151EF1EFC600EDA269 /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F31141EF1EFC600EDA269 /* Dictionary+Extensions.swift */; };
+		523F31161EF1EFC600EDA269 /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F31141EF1EFC600EDA269 /* Dictionary+Extensions.swift */; };
+		523F31171EF1EFFF00EDA269 /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F31141EF1EFC600EDA269 /* Dictionary+Extensions.swift */; };
+		523F31181EF1F00000EDA269 /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F31141EF1EFC600EDA269 /* Dictionary+Extensions.swift */; };
+		523F311A1EF1F01B00EDA269 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F31191EF1F01B00EDA269 /* Array+Extensions.swift */; };
+		523F311B1EF1F01B00EDA269 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F31191EF1F01B00EDA269 /* Array+Extensions.swift */; };
+		523F311C1EF1F01B00EDA269 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F31191EF1F01B00EDA269 /* Array+Extensions.swift */; };
+		523F311D1EF1F01B00EDA269 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F31191EF1F01B00EDA269 /* Array+Extensions.swift */; };
+		523F311F1EF1F18D00EDA269 /* TKOKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 52920F341EF1E4C100B9F87C /* TKOKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		523F31201EF1F19700EDA269 /* TKOKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 52920F341EF1E4C100B9F87C /* TKOKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		523F31211EF1F19E00EDA269 /* TKOKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 52920F341EF1E4C100B9F87C /* TKOKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52920F361EF1E4C100B9F87C /* TKOKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 52920F341EF1E4C100B9F87C /* TKOKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		523F31071EF1EB0F00EDA269 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Extensions.swift"; path = "Sources/UIKit/UIView+Extensions.swift"; sourceTree = "<group>"; };
+		523F310B1EF1EB7800EDA269 /* UIButton+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIButton+Extensions.swift"; path = "Sources/UIKit/UIButton+Extensions.swift"; sourceTree = "<group>"; };
+		523F310E1EF1EB8A00EDA269 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+Extensions.swift"; path = "Sources/UIKit/UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		523F31111EF1ECE700EDA269 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+Extensions.swift"; path = "Sources/UIKit/UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		523F31141EF1EFC600EDA269 /* Dictionary+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Dictionary+Extensions.swift"; path = "Sources/Dictionary+Extensions.swift"; sourceTree = "<group>"; };
+		523F31191EF1F01B00EDA269 /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Array+Extensions.swift"; path = "Sources/Array+Extensions.swift"; sourceTree = "<group>"; };
 		52920F2A1EF1E43A00B9F87C /* TKOKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TKOKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52920F331EF1E4C100B9F87C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/Info.plist; sourceTree = "<group>"; };
 		52920F341EF1E4C100B9F87C /* TKOKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKOKit.h; path = Sources/TKOKit.h; sourceTree = "<group>"; };
@@ -52,9 +76,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		523F310A1EF1EB1400EDA269 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				523F31071EF1EB0F00EDA269 /* UIView+Extensions.swift */,
+				523F310B1EF1EB7800EDA269 /* UIButton+Extensions.swift */,
+				523F310E1EF1EB8A00EDA269 /* UIImage+Extensions.swift */,
+				523F31111EF1ECE700EDA269 /* UIColor+Extensions.swift */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
 		52920F1E1EF1E2D100B9F87C = {
 			isa = PBXGroup;
 			children = (
+				523F31141EF1EFC600EDA269 /* Dictionary+Extensions.swift */,
+				523F31191EF1F01B00EDA269 /* Array+Extensions.swift */,
+				523F310A1EF1EB1400EDA269 /* UIKit */,
 				52920F6B1EF1E86800B9F87C /* Supporting Files */,
 				52920F2B1EF1E43A00B9F87C /* Products */,
 			);
@@ -95,6 +133,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				523F311F1EF1F18D00EDA269 /* TKOKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +141,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				523F31201EF1F19700EDA269 /* TKOKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +149,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				523F31211EF1F19E00EDA269 /* TKOKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +239,7 @@
 					52920F291EF1E43A00B9F87C = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 55SVD8WGE3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					52920F481EF1E53200B9F87C = {
@@ -208,6 +250,7 @@
 					52920F551EF1E56300B9F87C = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 55SVD8WGE3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					52920F621EF1E58900B9F87C = {
@@ -242,7 +285,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52920F351EF1E4C100B9F87C /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +316,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				523F310F1EF1EB8A00EDA269 /* UIImage+Extensions.swift in Sources */,
+				523F311A1EF1F01B00EDA269 /* Array+Extensions.swift in Sources */,
+				523F31151EF1EFC600EDA269 /* Dictionary+Extensions.swift in Sources */,
+				523F31081EF1EB0F00EDA269 /* UIView+Extensions.swift in Sources */,
+				523F310C1EF1EB7800EDA269 /* UIButton+Extensions.swift in Sources */,
+				523F31121EF1ECE700EDA269 /* UIColor+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +329,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				523F31171EF1EFFF00EDA269 /* Dictionary+Extensions.swift in Sources */,
+				523F311B1EF1F01B00EDA269 /* Array+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +338,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				523F31101EF1EB8A00EDA269 /* UIImage+Extensions.swift in Sources */,
+				523F311C1EF1F01B00EDA269 /* Array+Extensions.swift in Sources */,
+				523F31161EF1EFC600EDA269 /* Dictionary+Extensions.swift in Sources */,
+				523F31091EF1EB0F00EDA269 /* UIView+Extensions.swift in Sources */,
+				523F310D1EF1EB7800EDA269 /* UIButton+Extensions.swift in Sources */,
+				523F31131EF1ECE700EDA269 /* UIColor+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +351,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				523F31181EF1F00000EDA269 /* Dictionary+Extensions.swift in Sources */,
+				523F311D1EF1F01B00EDA269 /* Array+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -837,6 +895,7 @@
 				52920F321EF1E43A00B9F87C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52920F4E1EF1E53200B9F87C /* Build configuration list for PBXNativeTarget "TKOKit-macOS" */ = {
 			isa = XCConfigurationList;
@@ -845,6 +904,7 @@
 				52920F501EF1E53200B9F87C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52920F5B1EF1E56300B9F87C /* Build configuration list for PBXNativeTarget "TKOKit-tvOS" */ = {
 			isa = XCConfigurationList;
@@ -853,6 +913,7 @@
 				52920F5D1EF1E56300B9F87C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52920F681EF1E58900B9F87C /* Build configuration list for PBXNativeTarget "TKOKit-watchOS" */ = {
 			isa = XCConfigurationList;
@@ -861,6 +922,7 @@
 				52920F6A1EF1E58900B9F87C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
