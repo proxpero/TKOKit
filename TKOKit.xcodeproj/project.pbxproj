@@ -55,8 +55,7 @@
 		52920F1E1EF1E2D100B9F87C = {
 			isa = PBXGroup;
 			children = (
-				52920F331EF1E4C100B9F87C /* Info.plist */,
-				52920F341EF1E4C100B9F87C /* TKOKit.h */,
+				52920F6B1EF1E86800B9F87C /* Supporting Files */,
 				52920F2B1EF1E43A00B9F87C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +69,15 @@
 				52920F631EF1E58900B9F87C /* TKOKit.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		52920F6B1EF1E86800B9F87C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52920F331EF1E4C100B9F87C /* Info.plist */,
+				52920F341EF1E4C100B9F87C /* TKOKit.h */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
