@@ -36,6 +36,9 @@
 		527CF1721EF328EC0001DC27 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF1581EF2FF850001DC27 /* Functions.swift */; };
 		527CF1731EF328EC0001DC27 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF1581EF2FF850001DC27 /* Functions.swift */; };
 		527CF1741EF328ED0001DC27 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF1581EF2FF850001DC27 /* Functions.swift */; };
+		52A00FEC1EF3477E00B52E0D /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A00FEB1EF3477E00B52E0D /* Data.swift */; };
+		52A00FED1EF3477E00B52E0D /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A00FEB1EF3477E00B52E0D /* Data.swift */; };
+		52A00FEE1EF3477E00B52E0D /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A00FEB1EF3477E00B52E0D /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +115,7 @@
 		52920F2A1EF1E43A00B9F87C /* TKOKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TKOKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52920F491EF1E53200B9F87C /* TKOKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TKOKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52920F561EF1E56300B9F87C /* TKOKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TKOKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A00FEB1EF3477E00B52E0D /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +224,7 @@
 		527CF15B1EF2FF850001DC27 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				52A00FEB1EF3477E00B52E0D /* Data.swift */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -667,6 +672,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				527CF16F1EF327F90001DC27 /* Array.swift in Sources */,
+				52A00FEC1EF3477E00B52E0D /* Data.swift in Sources */,
 				527CF1721EF328EC0001DC27 /* Functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -676,6 +682,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				527CF1701EF327FA0001DC27 /* Array.swift in Sources */,
+				52A00FED1EF3477E00B52E0D /* Data.swift in Sources */,
 				527CF1731EF328EC0001DC27 /* Functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -685,6 +692,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				527CF1711EF327FB0001DC27 /* Array.swift in Sources */,
+				52A00FEE1EF3477E00B52E0D /* Data.swift in Sources */,
 				527CF1741EF328ED0001DC27 /* Functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
