@@ -30,6 +30,12 @@
 		527CF16B1EF301F80001DC27 /* DictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF1571EF2FF850001DC27 /* DictionaryTests.swift */; };
 		527CF16C1EF301FD0001DC27 /* FunctionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF1591EF2FF850001DC27 /* FunctionsTests.swift */; };
 		527CF16D1EF301FE0001DC27 /* FunctionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF1591EF2FF850001DC27 /* FunctionsTests.swift */; };
+		527CF16F1EF327F90001DC27 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF1541EF2FF850001DC27 /* Array.swift */; };
+		527CF1701EF327FA0001DC27 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF1541EF2FF850001DC27 /* Array.swift */; };
+		527CF1711EF327FB0001DC27 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF1541EF2FF850001DC27 /* Array.swift */; };
+		527CF1721EF328EC0001DC27 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF1581EF2FF850001DC27 /* Functions.swift */; };
+		527CF1731EF328EC0001DC27 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF1581EF2FF850001DC27 /* Functions.swift */; };
+		527CF1741EF328ED0001DC27 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF1581EF2FF850001DC27 /* Functions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +108,7 @@
 		527CF1581EF2FF850001DC27 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		527CF1591EF2FF850001DC27 /* FunctionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionsTests.swift; sourceTree = "<group>"; };
 		527CF15A1EF2FF850001DC27 /* MD5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MD5.swift; sourceTree = "<group>"; };
+		527CF16E1EF3267B0001DC27 /* Swift.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Swift.playground; sourceTree = "<group>"; };
 		52920F2A1EF1E43A00B9F87C /* TKOKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TKOKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52920F491EF1E53200B9F87C /* TKOKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TKOKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52920F561EF1E56300B9F87C /* TKOKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TKOKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -227,6 +234,7 @@
 		52920F1E1EF1E2D100B9F87C = {
 			isa = PBXGroup;
 			children = (
+				527CF16E1EF3267B0001DC27 /* Swift.playground */,
 				527CF1531EF2FF850001DC27 /* Swift */,
 				527CF15B1EF2FF850001DC27 /* Foundation */,
 				527CF1491EF2FF850001DC27 /* UIKit */,
@@ -658,6 +666,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				527CF16F1EF327F90001DC27 /* Array.swift in Sources */,
+				527CF1721EF328EC0001DC27 /* Functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -665,6 +675,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				527CF1701EF327FA0001DC27 /* Array.swift in Sources */,
+				527CF1731EF328EC0001DC27 /* Functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -672,6 +684,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				527CF1711EF327FB0001DC27 /* Array.swift in Sources */,
+				527CF1741EF328ED0001DC27 /* Functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -714,6 +728,7 @@
 		527CF0D21EF2F5630001DC27 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -755,6 +770,7 @@
 		527CF0D31EF2F5630001DC27 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -791,6 +807,7 @@
 		527CF0E11EF2F57A0001DC27 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -832,6 +849,7 @@
 		527CF0E21EF2F57A0001DC27 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -867,6 +885,7 @@
 		527CF0F01EF2F6C20001DC27 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -907,6 +926,7 @@
 		527CF0F11EF2F6C20001DC27 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -942,6 +962,7 @@
 		527CF10E1EF2F79D0001DC27 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -983,6 +1004,7 @@
 		527CF10F1EF2F79D0001DC27 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -1019,6 +1041,7 @@
 		527CF11D1EF2F7E10001DC27 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -1059,6 +1082,7 @@
 		527CF11E1EF2F7E10001DC27 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -1094,6 +1118,7 @@
 		527CF12C1EF2F7F60001DC27 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -1135,6 +1160,7 @@
 		527CF12D1EF2F7F60001DC27 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;

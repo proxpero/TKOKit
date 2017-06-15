@@ -5,5 +5,3 @@ FOUNDATION_EXPORT double TKOKitVersionNumber;
 
 //! Project version string for TKOKit.
 FOUNDATION_EXPORT const unsigned char TKOKitVersionString[];
-
-
