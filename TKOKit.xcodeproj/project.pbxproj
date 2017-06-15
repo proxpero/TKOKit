@@ -7,49 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		523F31081EF1EB0F00EDA269 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F31071EF1EB0F00EDA269 /* UIView.swift */; };
-		523F31091EF1EB0F00EDA269 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F31071EF1EB0F00EDA269 /* UIView.swift */; };
-		523F310C1EF1EB7800EDA269 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F310B1EF1EB7800EDA269 /* UIButton.swift */; };
-		523F310D1EF1EB7800EDA269 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F310B1EF1EB7800EDA269 /* UIButton.swift */; };
-		523F310F1EF1EB8A00EDA269 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F310E1EF1EB8A00EDA269 /* UIImage.swift */; };
-		523F31101EF1EB8A00EDA269 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F310E1EF1EB8A00EDA269 /* UIImage.swift */; };
-		523F31121EF1ECE700EDA269 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F31111EF1ECE700EDA269 /* UIColor.swift */; };
-		523F31131EF1ECE700EDA269 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F31111EF1ECE700EDA269 /* UIColor.swift */; };
-		523F31151EF1EFC600EDA269 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F31141EF1EFC600EDA269 /* Dictionary.swift */; };
-		523F31161EF1EFC600EDA269 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F31141EF1EFC600EDA269 /* Dictionary.swift */; };
-		523F31171EF1EFFF00EDA269 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F31141EF1EFC600EDA269 /* Dictionary.swift */; };
-		523F311A1EF1F01B00EDA269 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F31191EF1F01B00EDA269 /* Array.swift */; };
-		523F311B1EF1F01B00EDA269 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F31191EF1F01B00EDA269 /* Array.swift */; };
-		523F311C1EF1F01B00EDA269 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F31191EF1F01B00EDA269 /* Array.swift */; };
-		523F311F1EF1F18D00EDA269 /* TKOKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 52920F341EF1E4C100B9F87C /* TKOKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		523F31201EF1F19700EDA269 /* TKOKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 52920F341EF1E4C100B9F87C /* TKOKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		523F31231EF1F40F00EDA269 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F31221EF1F40F00EDA269 /* Functions.swift */; };
-		523F31241EF1F40F00EDA269 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F31221EF1F40F00EDA269 /* Functions.swift */; };
-		523F31251EF1F40F00EDA269 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523F31221EF1F40F00EDA269 /* Functions.swift */; };
 		527CF0CE1EF2F5630001DC27 /* TKOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52920F2A1EF1E43A00B9F87C /* TKOKit.framework */; };
 		527CF0DD1EF2F57A0001DC27 /* TKOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52920F491EF1E53200B9F87C /* TKOKit.framework */; };
 		527CF0EC1EF2F6C20001DC27 /* TKOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52920F561EF1E56300B9F87C /* TKOKit.framework */; };
 		527CF10A1EF2F79D0001DC27 /* TKOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52920F2A1EF1E43A00B9F87C /* TKOKit.framework */; };
 		527CF1191EF2F7E10001DC27 /* TKOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52920F561EF1E56300B9F87C /* TKOKit.framework */; };
 		527CF1281EF2F7F60001DC27 /* TKOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52920F491EF1E53200B9F87C /* TKOKit.framework */; };
-		527CF12E1EF2F83D0001DC27 /* DictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF0BF1EF2F48B0001DC27 /* DictionaryTests.swift */; };
-		527CF12F1EF2F83E0001DC27 /* DictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF0BF1EF2F48B0001DC27 /* DictionaryTests.swift */; };
-		527CF1301EF2F8410001DC27 /* DictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF0BF1EF2F48B0001DC27 /* DictionaryTests.swift */; };
-		527CF1311EF2F8450001DC27 /* ArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF0C11EF2F49B0001DC27 /* ArrayTests.swift */; };
-		527CF1321EF2F8450001DC27 /* ArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF0C11EF2F49B0001DC27 /* ArrayTests.swift */; };
-		527CF1331EF2F8460001DC27 /* ArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF0C11EF2F49B0001DC27 /* ArrayTests.swift */; };
-		527CF1341EF2F84B0001DC27 /* FunctionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF0C31EF2F4AE0001DC27 /* FunctionsTests.swift */; };
-		527CF1351EF2F84B0001DC27 /* FunctionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF0C31EF2F4AE0001DC27 /* FunctionsTests.swift */; };
-		527CF1361EF2F84C0001DC27 /* FunctionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF0C31EF2F4AE0001DC27 /* FunctionsTests.swift */; };
-		527CF1371EF2F8510001DC27 /* UIViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF0B71EF2F1550001DC27 /* UIViewTests.swift */; };
-		527CF1381EF2F8540001DC27 /* UIViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF0B71EF2F1550001DC27 /* UIViewTests.swift */; };
-		527CF1391EF2F8570001DC27 /* UIButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF0B91EF2F42E0001DC27 /* UIButtonTests.swift */; };
-		527CF13A1EF2F8580001DC27 /* UIButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF0B91EF2F42E0001DC27 /* UIButtonTests.swift */; };
-		527CF13B1EF2F85A0001DC27 /* UIImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF0BB1EF2F43C0001DC27 /* UIImageTests.swift */; };
-		527CF13C1EF2F85B0001DC27 /* UIImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF0BB1EF2F43C0001DC27 /* UIImageTests.swift */; };
-		527CF13D1EF2F85D0001DC27 /* UIColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF0BD1EF2F44C0001DC27 /* UIColorTests.swift */; };
-		527CF13E1EF2F85E0001DC27 /* UIColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF0BD1EF2F44C0001DC27 /* UIColorTests.swift */; };
-		52920F361EF1E4C100B9F87C /* TKOKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 52920F341EF1E4C100B9F87C /* TKOKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		527CF15D1EF300F00001DC27 /* TKOKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 527CF1481EF2FF7C0001DC27 /* TKOKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		527CF15E1EF300F90001DC27 /* TKOKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 527CF1481EF2FF7C0001DC27 /* TKOKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		527CF15F1EF301020001DC27 /* TKOKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 527CF1481EF2FF7C0001DC27 /* TKOKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		527CF1601EF301E20001DC27 /* UIButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF14B1EF2FF850001DC27 /* UIButtonTests.swift */; };
+		527CF1611EF301E30001DC27 /* UIButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF14B1EF2FF850001DC27 /* UIButtonTests.swift */; };
+		527CF1621EF301E60001DC27 /* UIColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF14D1EF2FF850001DC27 /* UIColorTests.swift */; };
+		527CF1631EF301E70001DC27 /* UIColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF14D1EF2FF850001DC27 /* UIColorTests.swift */; };
+		527CF1641EF301EA0001DC27 /* UIImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF14F1EF2FF850001DC27 /* UIImageTests.swift */; };
+		527CF1651EF301EA0001DC27 /* UIImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF14F1EF2FF850001DC27 /* UIImageTests.swift */; };
+		527CF1661EF301EE0001DC27 /* UIViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF1521EF2FF850001DC27 /* UIViewTests.swift */; };
+		527CF1671EF301EF0001DC27 /* UIViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF1521EF2FF850001DC27 /* UIViewTests.swift */; };
+		527CF1681EF301F30001DC27 /* ArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF1551EF2FF850001DC27 /* ArrayTests.swift */; };
+		527CF1691EF301F30001DC27 /* ArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF1551EF2FF850001DC27 /* ArrayTests.swift */; };
+		527CF16A1EF301F80001DC27 /* DictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF1571EF2FF850001DC27 /* DictionaryTests.swift */; };
+		527CF16B1EF301F80001DC27 /* DictionaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF1571EF2FF850001DC27 /* DictionaryTests.swift */; };
+		527CF16C1EF301FD0001DC27 /* FunctionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF1591EF2FF850001DC27 /* FunctionsTests.swift */; };
+		527CF16D1EF301FE0001DC27 /* FunctionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527CF1591EF2FF850001DC27 /* FunctionsTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,30 +78,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5212DDA71EF2181F00F614AE /* Swift.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Swift.playground; path = Sources/Swift.playground; sourceTree = "<group>"; };
-		523F31071EF1EB0F00EDA269 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIView.swift; path = Sources/UIKit/UIView.swift; sourceTree = "<group>"; };
-		523F310B1EF1EB7800EDA269 /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIButton.swift; path = Sources/UIKit/UIButton.swift; sourceTree = "<group>"; };
-		523F310E1EF1EB8A00EDA269 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIImage.swift; path = Sources/UIKit/UIImage.swift; sourceTree = "<group>"; };
-		523F31111EF1ECE700EDA269 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIColor.swift; path = Sources/UIKit/UIColor.swift; sourceTree = "<group>"; };
-		523F31141EF1EFC600EDA269 /* Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dictionary.swift; path = Sources/Dictionary.swift; sourceTree = "<group>"; };
-		523F31191EF1F01B00EDA269 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Array.swift; path = Sources/Array.swift; sourceTree = "<group>"; };
-		523F31221EF1F40F00EDA269 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Functions.swift; path = Sources/Functions.swift; sourceTree = "<group>"; };
-		527CF0B71EF2F1550001DC27 /* UIViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIViewTests.swift; path = Sources/UIKit/UIViewTests.swift; sourceTree = "<group>"; };
-		527CF0B91EF2F42E0001DC27 /* UIButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIButtonTests.swift; path = Sources/UIKit/UIButtonTests.swift; sourceTree = "<group>"; };
-		527CF0BB1EF2F43C0001DC27 /* UIImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIImageTests.swift; path = Sources/UIKit/UIImageTests.swift; sourceTree = "<group>"; };
-		527CF0BD1EF2F44C0001DC27 /* UIColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIColorTests.swift; path = Sources/UIKit/UIColorTests.swift; sourceTree = "<group>"; };
-		527CF0BF1EF2F48B0001DC27 /* DictionaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DictionaryTests.swift; path = Sources/DictionaryTests.swift; sourceTree = "<group>"; };
-		527CF0C11EF2F49B0001DC27 /* ArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ArrayTests.swift; path = Sources/ArrayTests.swift; sourceTree = "<group>"; };
-		527CF0C31EF2F4AE0001DC27 /* FunctionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FunctionsTests.swift; path = Sources/FunctionsTests.swift; sourceTree = "<group>"; };
 		527CF0C91EF2F5630001DC27 /* TKOKit-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TKOKit-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		527CF0D81EF2F57A0001DC27 /* TKOKit-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TKOKit-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		527CF0E71EF2F6C20001DC27 /* TKOKit-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TKOKit-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		527CF1051EF2F79D0001DC27 /* TKOKit-iOS-UIKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TKOKit-iOS-UIKitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		527CF1141EF2F7E10001DC27 /* TKOKit-tvOS-UIKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TKOKit-tvOS-UIKitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		527CF1231EF2F7F60001DC27 /* TKOKit-macOS-AppKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TKOKit-macOS-AppKitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		527CF1471EF2FF7C0001DC27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		527CF1481EF2FF7C0001DC27 /* TKOKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKOKit.h; sourceTree = "<group>"; };
+		527CF14A1EF2FF850001DC27 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		527CF14B1EF2FF850001DC27 /* UIButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonTests.swift; sourceTree = "<group>"; };
+		527CF14C1EF2FF850001DC27 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		527CF14D1EF2FF850001DC27 /* UIColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorTests.swift; sourceTree = "<group>"; };
+		527CF14E1EF2FF850001DC27 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		527CF14F1EF2FF850001DC27 /* UIImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageTests.swift; sourceTree = "<group>"; };
+		527CF1501EF2FF850001DC27 /* UIStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
+		527CF1511EF2FF850001DC27 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		527CF1521EF2FF850001DC27 /* UIViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewTests.swift; sourceTree = "<group>"; };
+		527CF1541EF2FF850001DC27 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		527CF1551EF2FF850001DC27 /* ArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayTests.swift; sourceTree = "<group>"; };
+		527CF1561EF2FF850001DC27 /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		527CF1571EF2FF850001DC27 /* DictionaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryTests.swift; sourceTree = "<group>"; };
+		527CF1581EF2FF850001DC27 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		527CF1591EF2FF850001DC27 /* FunctionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionsTests.swift; sourceTree = "<group>"; };
+		527CF15A1EF2FF850001DC27 /* MD5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MD5.swift; sourceTree = "<group>"; };
 		52920F2A1EF1E43A00B9F87C /* TKOKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TKOKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		52920F331EF1E4C100B9F87C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/Info.plist; sourceTree = "<group>"; };
-		52920F341EF1E4C100B9F87C /* TKOKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TKOKit.h; path = Sources/TKOKit.h; sourceTree = "<group>"; };
 		52920F491EF1E53200B9F87C /* TKOKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TKOKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52920F561EF1E56300B9F87C /* TKOKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TKOKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -199,32 +180,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		523F310A1EF1EB1400EDA269 /* UIKit */ = {
+		527CF1491EF2FF850001DC27 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				523F31071EF1EB0F00EDA269 /* UIView.swift */,
-				527CF0B71EF2F1550001DC27 /* UIViewTests.swift */,
-				523F310B1EF1EB7800EDA269 /* UIButton.swift */,
-				527CF0B91EF2F42E0001DC27 /* UIButtonTests.swift */,
-				523F310E1EF1EB8A00EDA269 /* UIImage.swift */,
-				527CF0BB1EF2F43C0001DC27 /* UIImageTests.swift */,
-				523F31111EF1ECE700EDA269 /* UIColor.swift */,
-				527CF0BD1EF2F44C0001DC27 /* UIColorTests.swift */,
+				527CF14A1EF2FF850001DC27 /* UIButton.swift */,
+				527CF14B1EF2FF850001DC27 /* UIButtonTests.swift */,
+				527CF14C1EF2FF850001DC27 /* UIColor.swift */,
+				527CF14D1EF2FF850001DC27 /* UIColorTests.swift */,
+				527CF14E1EF2FF850001DC27 /* UIImage.swift */,
+				527CF14F1EF2FF850001DC27 /* UIImageTests.swift */,
+				527CF1501EF2FF850001DC27 /* UIStoryboard.swift */,
+				527CF1511EF2FF850001DC27 /* UIView.swift */,
+				527CF1521EF2FF850001DC27 /* UIViewTests.swift */,
 			);
-			name = UIKit;
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		527CF1531EF2FF850001DC27 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				527CF1541EF2FF850001DC27 /* Array.swift */,
+				527CF1551EF2FF850001DC27 /* ArrayTests.swift */,
+				527CF1561EF2FF850001DC27 /* Dictionary.swift */,
+				527CF1571EF2FF850001DC27 /* DictionaryTests.swift */,
+				527CF1581EF2FF850001DC27 /* Functions.swift */,
+				527CF1591EF2FF850001DC27 /* FunctionsTests.swift */,
+				527CF15A1EF2FF850001DC27 /* MD5.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		527CF15B1EF2FF850001DC27 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		527CF15C1EF2FF850001DC27 /* AppKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppKit;
 			sourceTree = "<group>";
 		};
 		52920F1E1EF1E2D100B9F87C = {
 			isa = PBXGroup;
 			children = (
-				5212DDA71EF2181F00F614AE /* Swift.playground */,
-				523F31141EF1EFC600EDA269 /* Dictionary.swift */,
-				527CF0BF1EF2F48B0001DC27 /* DictionaryTests.swift */,
-				523F31191EF1F01B00EDA269 /* Array.swift */,
-				527CF0C11EF2F49B0001DC27 /* ArrayTests.swift */,
-				523F31221EF1F40F00EDA269 /* Functions.swift */,
-				527CF0C31EF2F4AE0001DC27 /* FunctionsTests.swift */,
-				523F310A1EF1EB1400EDA269 /* UIKit */,
+				527CF1531EF2FF850001DC27 /* Swift */,
+				527CF15B1EF2FF850001DC27 /* Foundation */,
+				527CF1491EF2FF850001DC27 /* UIKit */,
+				527CF15C1EF2FF850001DC27 /* AppKit */,
 				52920F6B1EF1E86800B9F87C /* Supporting Files */,
 				52920F2B1EF1E43A00B9F87C /* Products */,
 			);
@@ -249,8 +255,8 @@
 		52920F6B1EF1E86800B9F87C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				52920F331EF1E4C100B9F87C /* Info.plist */,
-				52920F341EF1E4C100B9F87C /* TKOKit.h */,
+				527CF1471EF2FF7C0001DC27 /* Info.plist */,
+				527CF1481EF2FF7C0001DC27 /* TKOKit.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -262,7 +268,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52920F361EF1E4C100B9F87C /* TKOKit.h in Headers */,
+				527CF15D1EF300F00001DC27 /* TKOKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +276,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				523F311F1EF1F18D00EDA269 /* TKOKit.h in Headers */,
+				527CF15E1EF300F90001DC27 /* TKOKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +284,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				523F31201EF1F19700EDA269 /* TKOKit.h in Headers */,
+				527CF15F1EF301020001DC27 /* TKOKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,9 +602,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				527CF1341EF2F84B0001DC27 /* FunctionsTests.swift in Sources */,
-				527CF12F1EF2F83E0001DC27 /* DictionaryTests.swift in Sources */,
-				527CF1311EF2F8450001DC27 /* ArrayTests.swift in Sources */,
+				527CF1681EF301F30001DC27 /* ArrayTests.swift in Sources */,
+				527CF16C1EF301FD0001DC27 /* FunctionsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -606,9 +611,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				527CF1351EF2F84B0001DC27 /* FunctionsTests.swift in Sources */,
-				527CF12E1EF2F83D0001DC27 /* DictionaryTests.swift in Sources */,
-				527CF1321EF2F8450001DC27 /* ArrayTests.swift in Sources */,
+				527CF16D1EF301FE0001DC27 /* FunctionsTests.swift in Sources */,
+				527CF1691EF301F30001DC27 /* ArrayTests.swift in Sources */,
+				527CF16A1EF301F80001DC27 /* DictionaryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -616,9 +621,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				527CF1361EF2F84C0001DC27 /* FunctionsTests.swift in Sources */,
-				527CF1301EF2F8410001DC27 /* DictionaryTests.swift in Sources */,
-				527CF1331EF2F8460001DC27 /* ArrayTests.swift in Sources */,
+				527CF16B1EF301F80001DC27 /* DictionaryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -626,10 +629,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				527CF1371EF2F8510001DC27 /* UIViewTests.swift in Sources */,
-				527CF13D1EF2F85D0001DC27 /* UIColorTests.swift in Sources */,
-				527CF1391EF2F8570001DC27 /* UIButtonTests.swift in Sources */,
-				527CF13B1EF2F85A0001DC27 /* UIImageTests.swift in Sources */,
+				527CF1661EF301EE0001DC27 /* UIViewTests.swift in Sources */,
+				527CF1601EF301E20001DC27 /* UIButtonTests.swift in Sources */,
+				527CF1621EF301E60001DC27 /* UIColorTests.swift in Sources */,
+				527CF1641EF301EA0001DC27 /* UIImageTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -637,10 +640,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				527CF1381EF2F8540001DC27 /* UIViewTests.swift in Sources */,
-				527CF13E1EF2F85E0001DC27 /* UIColorTests.swift in Sources */,
-				527CF13A1EF2F8580001DC27 /* UIButtonTests.swift in Sources */,
-				527CF13C1EF2F85B0001DC27 /* UIImageTests.swift in Sources */,
+				527CF1671EF301EF0001DC27 /* UIViewTests.swift in Sources */,
+				527CF1611EF301E30001DC27 /* UIButtonTests.swift in Sources */,
+				527CF1631EF301E70001DC27 /* UIColorTests.swift in Sources */,
+				527CF1651EF301EA0001DC27 /* UIImageTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -655,13 +658,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				523F310F1EF1EB8A00EDA269 /* UIImage.swift in Sources */,
-				523F311A1EF1F01B00EDA269 /* Array.swift in Sources */,
-				523F31151EF1EFC600EDA269 /* Dictionary.swift in Sources */,
-				523F31231EF1F40F00EDA269 /* Functions.swift in Sources */,
-				523F31081EF1EB0F00EDA269 /* UIView.swift in Sources */,
-				523F310C1EF1EB7800EDA269 /* UIButton.swift in Sources */,
-				523F31121EF1ECE700EDA269 /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -669,9 +665,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				523F31171EF1EFFF00EDA269 /* Dictionary.swift in Sources */,
-				523F311B1EF1F01B00EDA269 /* Array.swift in Sources */,
-				523F31241EF1F40F00EDA269 /* Functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -679,13 +672,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				523F31101EF1EB8A00EDA269 /* UIImage.swift in Sources */,
-				523F311C1EF1F01B00EDA269 /* Array.swift in Sources */,
-				523F31161EF1EFC600EDA269 /* Dictionary.swift in Sources */,
-				523F31251EF1F40F00EDA269 /* Functions.swift in Sources */,
-				523F31091EF1EB0F00EDA269 /* UIView.swift in Sources */,
-				523F310D1EF1EB7800EDA269 /* UIButton.swift in Sources */,
-				523F31131EF1ECE700EDA269 /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -752,7 +738,7 @@
 				);
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -788,7 +774,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -830,7 +816,7 @@
 				);
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -866,7 +852,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -904,7 +890,7 @@
 				);
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.proxpero.TKOKit-tvOSTests";
@@ -939,7 +925,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.proxpero.TKOKit-tvOSTests";
@@ -980,7 +966,7 @@
 				);
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -1016,7 +1002,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -1056,7 +1042,7 @@
 				);
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.proxpero.TKOKit-tvOS-UIKitTests";
@@ -1091,7 +1077,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.proxpero.TKOKit-tvOS-UIKitTests";
@@ -1133,7 +1119,7 @@
 				);
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -1169,7 +1155,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -1289,7 +1275,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1350,7 +1336,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1417,7 +1403,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
@@ -1479,7 +1465,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
@@ -1543,7 +1529,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -1603,7 +1589,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -1631,6 +1617,7 @@
 				527CF0D31EF2F5630001DC27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		527CF0E01EF2F57A0001DC27 /* Build configuration list for PBXNativeTarget "TKOKit-macOSTests" */ = {
 			isa = XCConfigurationList;
@@ -1639,6 +1626,7 @@
 				527CF0E21EF2F57A0001DC27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		527CF0EF1EF2F6C20001DC27 /* Build configuration list for PBXNativeTarget "TKOKit-tvOSTests" */ = {
 			isa = XCConfigurationList;
@@ -1647,6 +1635,7 @@
 				527CF0F11EF2F6C20001DC27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		527CF10D1EF2F79D0001DC27 /* Build configuration list for PBXNativeTarget "TKOKit-iOS-UIKitTests" */ = {
 			isa = XCConfigurationList;
@@ -1655,6 +1644,7 @@
 				527CF10F1EF2F79D0001DC27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		527CF11C1EF2F7E10001DC27 /* Build configuration list for PBXNativeTarget "TKOKit-tvOS-UIKitTests" */ = {
 			isa = XCConfigurationList;
@@ -1663,6 +1653,7 @@
 				527CF11E1EF2F7E10001DC27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		527CF12B1EF2F7F60001DC27 /* Build configuration list for PBXNativeTarget "TKOKit-macOS-AppKitTests" */ = {
 			isa = XCConfigurationList;
@@ -1671,6 +1662,7 @@
 				527CF12D1EF2F7F60001DC27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52920F221EF1E2D100B9F87C /* Build configuration list for PBXProject "TKOKit" */ = {
 			isa = XCConfigurationList;
