@@ -6,20 +6,20 @@
 //
 //
 
-extension Dictionary {
+public extension Dictionary {
 
-    init<S: Sequence>(_ sequence: S) where S.Iterator.Element == (Key, Value) {
+    public init<S: Sequence>(_ sequence: S) where S.Iterator.Element == (Key, Value) {
         self = [:]
         self.merge(sequence)
     }
 
-    mutating func merge<S: Sequence>(_ other: S) where S.Iterator.Element == (Key, Value) {
+    public mutating func merge<S: Sequence>(_ other: S) where S.Iterator.Element == (Key, Value) {
         for (k, v) in other {
             self[k] = v
         }
     }
 
-    func mapValues<NewValue>(transform: (Value) -> NewValue) -> [Key: NewValue] {
+    public func mapValues<NewValue>(transform: (Value) -> NewValue) -> [Key: NewValue] {
         return Dictionary<Key, NewValue>(map { (key, value) in
             return (key, transform(value))
         })

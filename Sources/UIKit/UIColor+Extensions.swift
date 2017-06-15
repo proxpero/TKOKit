@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIColor {
+public extension UIColor {
 
     /// Creates a color from `rgb`, typically `rgb` takes
     /// the form of a hexadecimal. For example: `0x31f3b9`.

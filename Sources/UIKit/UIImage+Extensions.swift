@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIImage {
+public extension UIImage {
     /// - Parameter color: A color.
     /// - Returns: A 1x1 UIImage of a solid color.
     public static func pixel(with color: UIColor) -> UIImage {

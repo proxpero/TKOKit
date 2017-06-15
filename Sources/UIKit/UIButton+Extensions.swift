@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIButton {
+public extension UIButton {
 
     /// Sets the background color of a button for a particular state.
     ///
