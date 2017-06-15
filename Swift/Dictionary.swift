@@ -1,11 +1,3 @@
-//
-//  Dictionary+Extensions.swift
-//  TKOKit
-//
-//  Created by Todd Olsen on 6/14/17.
-//
-//
-
 public extension Dictionary {
 
     public init<S: Sequence>(_ sequence: S) where S.Iterator.Element == (Key, Value) {
@@ -20,8 +12,8 @@ public extension Dictionary {
     }
 
     public func mapValues<NewValue>(transform: (Value) -> NewValue) -> [Key: NewValue] {
-        return Dictionary<Key, NewValue>(map { (key, value) in
-            return (key, transform(value))
+        return Dictionary<Key, NewValue>(self.map { entry in
+            (entry.key, transform(entry.value))
         })
     }
     

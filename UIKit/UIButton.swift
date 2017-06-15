@@ -1,11 +1,3 @@
-//
-//  UIButton+Extensions.swift
-//  TKOKit
-//
-//  Created by Todd Olsen on 6/14/17.
-//
-//
-
 import UIKit
 
 public extension UIButton {
