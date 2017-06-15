@@ -1,11 +1,3 @@
-//
-//  TKOKit.h
-//  TKOKit
-//
-//  Created by Todd Olsen on 6/14/17.
-//
-//
-
 #import <Foundation/Foundation.h>
 
 //! Project version number for TKOKit.

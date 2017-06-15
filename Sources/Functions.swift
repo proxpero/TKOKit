@@ -1,11 +1,3 @@
-//
-//  Functions.swift
-//  TKOKit
-//
-//  Created by Todd Olsen on 6/14/17.
-//
-//
-
 precedencegroup LeftApplyPrecedence {
     associativity: left
     higherThan: AssignmentPrecedence

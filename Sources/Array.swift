@@ -1,11 +1,3 @@
-//
-//  Array+Extensions.swift
-//  TKOKit
-//
-//  Created by Todd Olsen on 6/14/17.
-//
-//
-
 public extension Array {
 
     public var random: Element? {
